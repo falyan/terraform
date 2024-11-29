@@ -1,0 +1,16 @@
+# Folder konfigurasi lokal Terraform
+.terraform/
+
+# File status Terraform lokal
+terraform.tfstate
+terraform.tfstate.backup
+
+# File log crash Terraform
+crash.log
+
+# File rencana Terraform
+*.tfplan
+
+# File variabel sensitif (opsional, jika digunakan)
+*.tfvars
+*.tfvars.json
